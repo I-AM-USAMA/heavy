@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.nav{
+    background: black;
+    color: white;
+}
+.navbar-brand img{
+    width: 120px;
+}
+.nav-rig{
+    background-color: #64C4DD;
+    padding: 8px 25px;
+    color: black;
+    border-radius: 0;
+    font-weight: 600;
+}
+.nav-rig:hover{
+    background: transparent;
+    border: 2px solid #64C4DD;
+    color: #64C4DD;
+}
+.nav-item a{
+    color: white !important;
+    transition: 0.5s;
+}
+.nav-item a:hover{
+    color:#64C4DD !important ;
+}
+.main-head{
+    background: black;
+    padding-bottom: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 88%, 0 100%);
+}
+.main-head .col img{
+    width: 100%;
+    height: 450px;
+}
+.head-rig{
+    color: white;
+    margin: auto 0;
+}
+.head-rig h6{
+    color:#64C4DD;
+    font-size: 1.5rem;
+}
+.head-rig h1{
+    font-size: 2.5rem;
+    font-weight: 200;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+.head-rig h1 span{
+    color: #64C4DD;
+    font-size: 3.5rem;
+}
+.head-rig button{
+    background: transparent;
+    border: 2px solid #64C4DD;
+    color: #64C4DD;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+.head-rig button:hover{
+    background: #64C4DD;
+    color: black;
+}
+.icon-color{
+    background: white;
+}
+.part-2{
+    margin-top: 2rem;
+}
+.part-2 .row{
+    align-items: center;
+}
+.part-2 .row h1{
+    font-size: 2.5rem;
+}
+.part-2 .row h1 span{
+    color:#64C4DD ;
+}
+.part-2 .row h3{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.sec-2-p{
+    color: rgb(138, 138, 138);
+}
+.part-2 .row .fa{
+    
+    color:#64C4DD ;
+    font-size: 1.5rem;
+    margin-left: 0.2rem;
+    border-radius: 24rem;
+    transition: 0.5s;
+}
+.part-2 .row .fa:hover{
+    color: black;
+    transform: translatey(-0.5rem);
+}
+/* 3rd-section */
+.part-3{
+    background: rgb(245, 245, 245);
+}
+.part-3 .row{
+    
+    align-items: center;
+    position: relative;
+    padding: 0 2rem;
+}
+.ser-hd{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+.ser-hd span{
+    color: #64C4DD;
+}
+.part-3 .row .ser-p{
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 3rem;
+}
+.card{
+    text-align: center;
+    margin: 2rem 2rem;
+    transition: .4s;
+}
+.card .fa{
+    background:#64C4DD;
+    font-size: 2rem;
+    padding: 1rem;
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.card:hover{
+    background: black;
+    color: white;
+    transform: translatey(-1rem);
+}
+.card h1{
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    font-weight: 400;
+}
+.card p{
+   color:rgb(138 138 138) ;
+   margin-bottom: 3rem;
+}
+.part-4th{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./img/m-3.jfif);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
+}
+.part-4th .row {
+    text-align: center;
+    color: white;
+}
+.part-4th .row h1{
+    font-size: 2rem;
+    padding-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+.part-4th .row p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.part-4th .row .btn-sec-4{
+    background-color: #64C4DD;
+    padding: 8px 25px;
+    color: black;
+    border-radius: 0;
+    font-weight: 600;
+    margin-bottom: 8rem;
+}
+.part-4th .row .btn-sec-4:hover{
+    background: transparent;
+    border: 2px solid #64C4DD;
+    color: #64C4DD;
+}
+.part-5th .row{
+    justify-content: space-around;
+    text-align: center;
+    margin: 2rem 0;
+
+}
+.part-5th .row img{
+    width: 6rem;
+    border-radius:12rem;
+    height: 6rem;
+    margin: 2rem 0;
+}
+.testimonial{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./img/m-3.jfif);
+    height: 70vh;
+}
+.testimonial h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 50px 0;
+}
+.d-block{
+    width: 100px !important ;
+    border-radius: 250px;
+    margin: 30px auto;
+    margin-bottom: 150px;
+}
+.carousel{
+    transition: 0.1s;
+}
